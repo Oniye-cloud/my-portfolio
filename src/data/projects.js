@@ -5,7 +5,7 @@ const projects = [
     image: "/images/projects/qr-attendance.png",
     description:
       "A real-time attendance tracking system using QR codes and Firebase. Built with React, Vite, and Firestore for real-time updates.",
-    tech: ["React", "Firebase", "Tailwind CSS", "Vite"],
+    tech: ["React", "Tailwind CSS", "Vite"],
     link: "https://cyberflex-attendance.vercel.app",
     github: "https://github.com/Cyb3rflex/qr-attendance-system",
   },
@@ -28,26 +28,6 @@ const projects = [
     tech: ["React", "Rapid API", "Tailwind CSS"],
     link: "https://yt-summary-ai.vercel.app",
     github: "https://github.com/Cyb3rflex/youtube-summarizer",
-  },
-  {
-    id: 4,
-    title: "Pentest Lab Demo",
-    image: "/images/projects/pentest-lab.png",
-    description:
-      "A mini pentesting environment showcasing vulnerable and secure Node.js apps for ethical hacking exercises.",
-    tech: ["Node.js", "Express", "Docker"],
-    link: "https://github.com/Cyb3rflex/pentest-lab",
-    github: "https://github.com/Cyb3rflex/pentest-lab",
-  },
-  {
-    id: 5,
-    title: "The Ultimate Money-Saving Blueprint",
-    image: "/images/projects/money-blueprint.png",
-    description:
-      "A digital financial toolkit including a budgeting Excel template and a visually designed PDF guide for smart financial planning.",
-    tech: ["Canva", "Excel", "Marketing Strategy"],
-    link: "https://cyberflex-blueprint.vercel.app",
-    github: "https://github.com/Cyb3rflex/money-blueprint",
   },
 ];
 
