@@ -36,7 +36,7 @@ const Navbar = () => {
           to="/"
           className="text-2xl font-bold text-blue-600 dark:text-blue-400"
         >
-          Cyb3r_Cure
+          Cyb3r_Cure Portfolio
         </Link>
 
         {/* Desktop Navigation */}
