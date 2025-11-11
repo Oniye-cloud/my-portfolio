@@ -13,7 +13,7 @@ const Footer = () => {
       <p className="text-gray-700 dark:text-gray-300 text-sm">
         © {currentYear} Cybersecurity Portfolio by{" "}
         <span className="font-semibold text-blue-600 dark:text-blue-400">
-          Cyb3rCure
+          Cyb3r_Cure
         </span>
         . Built with ❤ using React, TailwindCSS & Framer Motion.
       </p>
