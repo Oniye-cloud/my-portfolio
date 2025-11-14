@@ -1,22 +1,20 @@
-export const SITE_NAME = "Cyberflex Portfolio";
-export const SITE_URL = "https://cyberflex-portfolio.vercel.app";
-export const EMAIL = "cyberflex.dev@gmail.com";
+export const SITE_NAME = "Cyb3rCure Portfolio";
+export const SITE_URL = "https://my-portfolio-three-azure-95.vercel.app";
+export const EMAIL = "Oniyeahmad@gmail.com";
 
 export const SOCIALS = {
-  github: "https://github.com/Cyb3rflex",
-  linkedin: "https://linkedin.com/in/cyberflex",
-  twitter: "https://x.com/Cyb3rflex",
+  github: "https://github.com/Oniye-cloud",
+  linkedin: "https://www.linkedin.com/in/ahmad-oniye-7886911b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  twitter: "https://x.com/AhmadOniye?t=Z3b8k1kD6Y1v0n1i1b8Z3A&s=09",
 };
 
 export const META = {
-  title: "Cyberflex | Cybersecurity & Full-Stack Developer Portfolio",
+  title: "Cyb3r_Cure | Cybersecurity Portfolio",
   description:
-    "Explore my cybersecurity and full-stack development projects. I build secure, modern web applications using React, Node.js, and more.",
+    "I'm Ahmad Oniye, a Cybersecurity Developer / Pentester Explore my cybersecurity projects and connect with me!",
   keywords: [
-    "Cyberflex",
+    "Cyb3r_Cure",
     "Cybersecurity Developer",
-    "Full Stack Engineer",
-    "React Developer",
     "Portfolio",
   ],
 };

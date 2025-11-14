@@ -15,7 +15,7 @@ const Footer = () => {
         <span className="font-semibold text-blue-600 dark:text-blue-400">
           Cyb3r_Cure
         </span>
-        . Built with ❤ using React, TailwindCSS & Framer Motion.
+        @2025 All rights reserved.
       </p>
     </motion.footer>
   );

@@ -1,12 +1,12 @@
 const projects = [
   {
     id: 1,
-    title: "QR Code Attendance System",
+    title: "A Password Strenght Checker System",
     image: "/images/projects/qr-attendance.png",
     description:
       "A real-time attendance tracking system using QR codes and Firebase. Built with React, Vite, and Firestore for real-time updates.",
     tech: ["React", "Tailwind CSS", "Vite"],
-    link: "https://cyberflex-attendance.vercel.app",
+    link: "https://passwor-strenght-checker.vercel.app",
     github: "https://github.com/Cyb3rflex/qr-attendance-system",
   },
   {

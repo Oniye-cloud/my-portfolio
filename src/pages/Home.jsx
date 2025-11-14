@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
       <motion.img
-        src="/images/avatar.png"
+        src="../assets/avatar.jpg"
         alt="Profile"
         className="w-40 h-40 rounded-full border-4 border-blue-500 mb-6 shadow-lg"
         initial={{ opacity: 0, scale: 0.8 }}
@@ -19,7 +19,7 @@ const Home = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.5 }}
       >
-        Hello, I'm <span className="text-blue-600 dark:text-blue-400">Cyberflex</span>
+        Hello, I'm <span className="text-blue-600 dark:text-blue-400">Cyb3r_Cure</span>
       </motion.h1>
       <motion.p
         className="mt-3 text-gray-600 dark:text-gray-300 max-w-xl"
@@ -27,8 +27,7 @@ const Home = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.6 }}
       >
-        A passionate Cybersecurity Enthusiast & Full-Stack Developer.  
-        I love building secure, modern web applications and teaching others how to protect digital systems.
+        I'm a cybersecurity enthusiast dedicated to protecting systems and networks from threats. I enjoy exploring new security technologies and best practices.
       </motion.p>
 
       <motion.div
@@ -41,7 +40,7 @@ const Home = () => {
           to="/projects"
           className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg font-medium transition"
         >
-          View My Projects
+          View My Security Projects
         </Link>
         <Link
           to="/contact"
