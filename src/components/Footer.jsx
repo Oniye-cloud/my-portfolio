@@ -1,3 +1,5 @@
+/* eslint-disable no-irregular-whitespace */
+/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 
 const Footer = () => {

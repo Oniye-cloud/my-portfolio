@@ -1,34 +1,50 @@
+import passwordStrengthChecker from "../assets/passwordstrenghtchecker.png";
+import cybersecurityDashboard from "../assets/cybersecurityDashboard.png";
+import portfolioimage1 from "../assets/portfolioimage1.png";
+import ipchecker from "../assets/ipchecker.png";
+import avatar from "../assets/avatar.jpg";
+
 const projects = [
   {
     id: 1,
-    title: "A Password Strenght Checker System",
-    image: "/images/projects/qr-attendance.png",
+    title: "A Cybersecurity Portfolio",
+    image: portfolioimage1,
     description:
-      "A real-time attendance tracking system using QR codes and Firebase. Built with React, Vite, and Firestore for real-time updates.",
+      "A cybersecurity Portfolio Built with React, Vite, and Tailwind CSS for responsive design.",
     tech: ["React", "Tailwind CSS", "Vite"],
-    link: "https://passwor-strenght-checker.vercel.app",
-    github: "https://github.com/Cyb3rflex/qr-attendance-system",
+    link: "https://my-portfolio-three-azure-95.vercel.app",
+    github: "https://github.com/Oniye-cloud/my-portfolio.git",
   },
   {
     id: 2,
-    title: "PagePilot AI",
-    image: "/images/projects/pagepilot.png",
+    title: "A Password Strenght Checker System",
+    image: passwordStrengthChecker,
     description:
-      "An AI-powered landing page generator with one-click deployment and a drag-and-drop editor. Frontend-only project built with Next.js.",
-    tech: ["Next.js", "Tailwind CSS", "OpenAI API"],
-    link: "https://pagepilot.vercel.app",
-    github: "https://github.com/Cyb3rflex/pagepilot",
+      "A Password Strenght Checker System. Built with React, Vite, and Firestore for real-time updates.",
+    tech: ["React", "Tailwind CSS", "Vite"],
+    link: "https://passwor-strenght-checker.vercel.app",
+    github: "https://github.com/Oniye-cloud/passwor-strenght-checker.git",
   },
   {
     id: 3,
-    title: "YouTube Summarizer & Translator",
-    image: "/images/projects/youtube-summarizer.png",
+    title: "Ip Checker",
+    image: ipchecker,
     description:
-      "A web app that summarizes and translates YouTube videos using AI. Ideal for quick learning and accessibility.",
-    tech: ["React", "Rapid API", "Tailwind CSS"],
-    link: "https://yt-summary-ai.vercel.app",
-    github: "https://github.com/Cyb3rflex/youtube-summarizer",
+      "An IP Checker tool that allows users to look up information about an IP address, including its location, ISP, and other relevant details.",
+    tech: ["HTML", "PYTHON", "CSS"],
+    link: "https://ip-checker-a2pw.vercel.app/", //change this to urs
+    github: "https://github.com/Oniye-cloud/ip-info-finder.git",
   },
+  {
+    id: 4,
+    title: "Cybersecurity Dashboard",
+    image: cybersecurityDashboard,
+    description:
+      "A Cybersecurity Dashboard that list some tools used in cybersecurity with details.",
+    tech: ["React", "Vite", "Tailwind CSS", "Lucide Icons"],
+    link: "https://ip-checker-a2pw.vercel.app/", //change this to urs
+    github: "",
+  }
 ];
 
 export default projects;

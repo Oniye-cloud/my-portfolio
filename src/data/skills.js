@@ -9,4 +9,5 @@ const skills = [
   "Linux & Bash",
 ];
 
+// eslint-disable-next-line no-irregular-whitespace
 export default skills;

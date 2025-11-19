@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 export const SITE_NAME = "Cyb3rCure Portfolio";
 export const SITE_URL = "https://my-portfolio-three-azure-95.vercel.app";
 export const EMAIL = "Oniyeahmad@gmail.com";

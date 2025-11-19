@@ -8,11 +8,17 @@ const ProjectCard = ({ project, onOpen }) => {
       whileTap={{ scale: 0.98 }}
       onClick={() => onOpen(project)}
     >
-      <img
-        src={project.image}
-        alt={project.title}
-        className="w-full h-48 object-cover"
-      />
+      {project.image ? (
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full h-48 object-cover"
+        />
+      ) : (
+        <div className="w-full h-48 bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+          <span className="text-gray-500 dark:text-gray-300">No image</span>
+        </div>
+      )}
       <div className="p-4">
         <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100">
           {project.title}
