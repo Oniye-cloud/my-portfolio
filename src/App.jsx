@@ -7,8 +7,6 @@ import Contact from "./pages/Contact";
 import MainLayout from "./layouts/MainLayout";
 
 const App = () => {
-  // MainLayout uses an <Outlet /> to render child routes.
-  // Use a parent Route with element={<MainLayout />} so children render into the Outlet.
   return (
     <Routes>
       <Route path="/" element={<MainLayout />}>
