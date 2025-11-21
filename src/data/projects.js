@@ -1,10 +1,9 @@
 import passwordStrengthChecker from "../assets/passwordstrenghtchecker.png";
-import cybersecurityDashboard from "../assets/https://github.com/Oniye-cloud/my-portfolio.git";
+import cybersecuritydashboard from "../assets/cybersecuritydashboard.png";
 import portfolioimage1 from "../assets/portfolioimage1.png";
-import ipchecker from "../assets/ip-info-finder-ten.vercel.app";
+// import ipchecker from "../assets/ipchecker.png";
 import avatar from "../assets/avatar.jpg";
 import ipchecker from "../assets/ipchecker.png";
-// import avatar from "../assets/avatar.jpg";
 
 const projects = [
   {
@@ -40,7 +39,7 @@ const projects = [
   {
     id: 4,
     title: "Cybersecurity Dashboard",
-    image: cybersecurityDashboard,
+    image: cybersecuritydashboard,
     description:
       "A Cybersecurity Dashboard that list some tools used in cybersecurity with details.",
     tech: ["React", "Vite", "Tailwind CSS", "Lucide Icons"],
