@@ -1,8 +1,6 @@
 import passwordStrengthChecker from "../assets/passwordstrenghtchecker.png";
 import cybersecuritydashboard from "../assets/cybersecuritydashboard.png";
 import portfolioimage1 from "../assets/portfolioimage1.png";
-// import ipchecker from "../assets/ipchecker.png";
-import avatar from "../assets/avatar.jpg";
 import ipchecker from "../assets/ipchecker.png";
 
 const projects = [
