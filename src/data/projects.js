@@ -1,8 +1,10 @@
 import passwordStrengthChecker from "../assets/passwordstrenghtchecker.png";
 import cybersecurityDashboard from "../assets/https://github.com/Oniye-cloud/my-portfolio.git";
 import portfolioimage1 from "../assets/portfolioimage1.png";
-import ipchecker from "../assets/ipchecker.png";
+import ipchecker from "../assets/ip-info-finder-ten.vercel.app";
 import avatar from "../assets/avatar.jpg";
+import ipchecker from "../assets/ipchecker.png";
+// import avatar from "../assets/avatar.jpg";
 
 const projects = [
   {
