@@ -49,6 +49,7 @@ const ProjectModal = ({ project, onClose }) => {
             ))}
           </div>
 
+          <div className="mt-4 flex flex-wrap gap-2">
           {project.link && (
             <a
               href={project.link}
@@ -56,9 +57,22 @@ const ProjectModal = ({ project, onClose }) => {
               rel="noopener noreferrer"
               className="mt-5 inline-block text-center bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded-md transition"
             >
-              View Project
+             🤟View Project
             </a>
           )}
+
+          {project.link && (
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-5 inline-block text-amber-50 text-center bg-orange-900 hover:bg-blue-400 hover:text-black font-medium px-4 py-2 rounded-md"
+            >
+              🤖 Github Link
+            </a>
+          )}
+          </div>
+
         </motion.div>
       </motion.div>
     </AnimatePresence>

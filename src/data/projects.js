@@ -2,7 +2,7 @@ import passwordStrengthChecker from "../assets/passwordstrenghtchecker.png";
 import cybersecurityDashboard from "../assets/cybersecurityDashboard.png";
 import portfolioimage1 from "../assets/portfolioimage1.png";
 import ipchecker from "../assets/ipchecker.png";
-import avatar from "../assets/avatar.jpg";
+// import avatar from "../assets/avatar.jpg";
 
 const projects = [
   {
