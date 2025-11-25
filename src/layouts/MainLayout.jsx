@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import useScrollToTop from "../hooks/useScrollToTop";
+import { Toaster } from "react-hot-toast";
 
 const MainLayout = () => {
   const location = useLocation();
@@ -12,6 +13,7 @@ const MainLayout = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-950 text-gray-800 dark:text-gray-100 transition-colors duration-300">
+      <Toaster position="top-center" />
       {/* ✅ Navbar (reusable component) */}
       <Navbar />
 
